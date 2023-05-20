@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(#2196f3 , #e91e63);
+    height: 100vh;
+}
+.container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+}
+
+input, button {
+    margin-bottom: 10px;
+    
+}
+
+button {
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+button:hover{
+    background-color: whitesmoke;
+}
+#total {
+    margin-top: 20px;
+    font-weight: bold;
+}
+#billAmount,#tipAmount{
+    margin-top: 5px;
+}
+
